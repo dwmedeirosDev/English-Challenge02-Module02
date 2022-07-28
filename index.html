@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>English Challenge 2 - Module 02</title>
+    </head>
+    <body>
+        <header>
+            <section class="conteiner-header">
+                <figure>
+                    <img src="images/hamburger-menu.png" alt="Hamburger Menu">
+                </figure>
+                <h2>Flavo</h2>
+                <figure>
+                    <img src="images/hamper.png" alt="Hamper">
+                </figure>
+            </section>
+            <main>
+                <section class="conteiner-main">
+                    <figure class="conteiner-product">
+                        <img src="images/intensity.png" alt="Intensity">
+                    </figure>
+                    <div class="conteiner-price">
+                        <h1>INTENSITY</h1>
+                        <h2 class="price">$15 ~ $25</h2>
+                    </div>
+                    <div class="conteiner-ingredients">
+                        <h2>WHAT'S INSIDE</h2>
+                        <h3>Chili, oregano, safran, paprika</h3>
+                    </div>
+                    <div class="conteiner-contents">
+                        <h2>WHY WE LOVE IT</h2>
+                        <h3>This one will add a little savoury flavour to any food and turn any meal to a culinary masterpiece.</h3>
+                    </div>
+                    <form class="conteiner-form">
+                        <div>
+                            <input onClick="firstPrice()" type="radio" id="bag" name="radio">
+                                <label for="bag">BAG (75g)</label>
+                        </div>
+                        <div>
+                            <input onClick="secondPrice()" type="radio" id="jar" name="radio">
+                                <label for="jar">JAR (150g)</label>
+                        </div>
+                    </form>
+                    <div class="conteiner-quantity">
+                        <h2 onclick ="remove()" class="decrement">-</h2>
+                        <h2 class="quantity">1</h2>
+                        <h2 onclick ="add()" class="increment">+</h2>
+                    </div>
+                    <div class="conteiner-add-to-cart">
+                        <h2>ADD TO CART</h2>
+                    </div>
+                </section>
+            </main>
+        </header>
+        <script src="script.js"></script>
+    </body>
+    </html>
