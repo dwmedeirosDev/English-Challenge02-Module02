@@ -114,10 +114,13 @@ main{
     border-radius: 30px;
 }
 
-.conteiner-quantity h2{
-    width: 30px;
+.conteiner-quantity button{
+    background-color: #f7a529;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 2rem;
+    border: none;
 }
 
 .decrement:hover{
@@ -138,12 +141,13 @@ main{
 
 }
 
-.conteiner-add-to-cart h2{
+.conteiner-add-to-cart button{
     color: white;
+    background-color: black;
     font-size: 1.2rem;
     font-weight: lighter;
 }
 
-.conteiner-add-to-cart h2:hover{
-    font-weight: bolder;
+.conteiner-add-to-cart button:hover{
+    font-weight: 600;
 }
